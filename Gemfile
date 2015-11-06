@@ -8,6 +8,9 @@ gem 'sinatra-flash'
 gem 'sinatra-redirect-with-flash'
 gem 'json'
 gem 'ripl'
+gem 'mechanize'
+gem 'nokogiri'
+gem 'HTTParty'
 
 group :development do
  gem 'sqlite3'
