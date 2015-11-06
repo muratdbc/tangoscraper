@@ -1,6 +1,6 @@
 require 'mechanize'
 require 'nokogiri'
-require 'HTTParty'
+require 'httparty'
 require './app'
 
 mechanize = Mechanize.new
