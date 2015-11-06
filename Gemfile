@@ -10,7 +10,7 @@ gem 'json'
 gem 'ripl'
 gem 'mechanize'
 gem 'nokogiri'
-gem 'HTTParty'
+gem 'httparty'
 
 group :development do
  gem 'sqlite3'
