@@ -11,6 +11,8 @@ gem 'ripl'
 gem 'mechanize'
 gem 'nokogiri'
 gem 'httparty'
+gem "sinatra-cross_origin", "~> 0.3.1"
+gem 'geokit'
 
 group :development do
  gem 'sqlite3'

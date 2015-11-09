@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20151105170923) do
+ActiveRecord::Schema.define(version: 20151108045241) do
 
   create_table "bars", force: :cascade do |t|
     t.integer  "eventId"
@@ -22,6 +22,8 @@ ActiveRecord::Schema.define(version: 20151105170923) do
     t.text     "eventBlob"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.float    "latitude"
+    t.float    "longitude"
   end
 
   create_table "events", force: :cascade do |t|
