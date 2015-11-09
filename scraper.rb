@@ -44,6 +44,9 @@ doc.css('table div').each {|a|
     # eventsArray.push([eventId,eventDate])
 }
 
+# Geocoding happens here
+# Bar.all.each_with_index { |evnt,index|   a=Geokit::Geocoders::GoogleGeocoder.geocode evnt.eventGoogleMapsUrl.split("=")[1] ; sleep 10 ; lat= a.ll.split(",")[0].to_f; longt= a.ll.split(",")[1].to_f; bar = Bar.find_by(id: index+1); bar.update(latitude:lat,longitude: longt) }
+
 # create table events
 # columns  : date etc...
 
